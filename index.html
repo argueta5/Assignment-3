@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+    <!-- Navbar with fluid container -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Brand/logo and toggle button -->
+            <a href="#" class="navbar-brand pull-left"><img src="Red Black Minimal Max Speed Car Company Logo.png" class="rounded-circle mt-4" width="75"></a> 
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fluid container for the table -->
+    <div class="container-fluid">
+        <!-- Table with dynamic content -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Hours</th>
+                    <th scope="col">Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Chicago</td>
+                    <td>7am-6pm</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Salt Lake City</td>
+                    <td>8am-5pm</td>
+                    <td>Booked</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>San Francisco</td>
+                    <td>8am-6pm</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Row and column for the image and button -->
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <!-- Smaller image -->
+                <img src="Red Black Minimal Max Speed Car Company Logo.png" class="rounded-circle mt-4" width="50">
+                <!-- Button linking to contact page -->
+                <a href="contact.html" target="_blank">
+                    <button class="btn btn-danger mt-4">Contact Us</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Linking Bootstrap JavaScript -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
